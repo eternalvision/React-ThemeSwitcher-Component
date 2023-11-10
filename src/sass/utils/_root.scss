@@ -1,0 +1,16 @@
+:root {
+    --body-light-bg: #fafafa;
+    --body-dark-bg: #1a1a1a;
+    --color-light: #1a1a1a;
+    --color-dark: #fafafa;
+}
+
+body.light {
+    --body-bg: var(--body-light-bg);
+    --color: var(--color-light);
+}
+
+body.dark {
+    --body-bg: var(--body-dark-bg);
+    --color: var(--color-dark);
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.ThemeFather {
+    display: flex;
+    align-items: center;
+}
+
+.ThemeButton {
+    background-color: transparent;
+
+    svg {
+        display: flex;
+        align-items: center;
+        fill: var(--color);
+        width: 25vw;
+        height: 50vh;
+    }
+}
